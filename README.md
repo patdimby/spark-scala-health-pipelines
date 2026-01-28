@@ -75,8 +75,8 @@ Delta Lake Storage
 
 ## ⚙️ Technology Stack
 
-* **Language**: Scala 2.13
-* **Processing**: Apache Spark 3.x
+* **Language**: Scala 3.8.1
+* **Processing**: Apache Spark 4.1.1
 * **Storage**: Delta Lake
 * **Ingestion**: REST API (HTTP)
 * **Build Tool**: sbt
@@ -133,8 +133,8 @@ epidemic-spark-pipeline/
 
 ### Prerequisites
 
-* Java 11+
-* Apache Spark 3.x
+* Java 17.0.2
+* Apache Spark 4.1.1
 * sbt
 
 ### Run the pipeline
