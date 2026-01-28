@@ -10,6 +10,7 @@ fork := true
 // Aligner version JDK sur 17
 javacOptions ++= Seq(
   "-source", "17", "-target", "17",
+  "--add-opens=java.base/java.nio=ALL-UNNAMED",
   "--add-opens=java.base/sun.nio.ch=ALL-UNNAMED"
 )
 
