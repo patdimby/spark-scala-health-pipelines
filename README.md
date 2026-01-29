@@ -75,8 +75,8 @@ Delta Lake Storage
 
 ## ⚙️ Technology Stack
 
-* **Language**: Scala 3.8.1
-* **Processing**: Apache Spark 4.1.1
+* **Language**: Scala 2.3.18
+* **Processing**: Apache Spark 3.5.8
 * **Storage**: Delta Lake
 * **Ingestion**: REST API (HTTP)
 * **Build Tool**: sbt
