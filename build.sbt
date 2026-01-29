@@ -9,11 +9,11 @@ fork := true
 
 // Aligner version JDK sur 17
 javacOptions ++= Seq(
-  "-source", "21", "-target", "21",  
+  "-source", "17", "-target", "17",  
   "--add-opens=java.base/java.nio=ALL-UNNAMED",
   "--add-opens=java.base/sun.nio.ch=ALL-UNNAMED",
-  "--add-exports java.base/java.nio.ch=ALL-UNNAMED",
-  "--add-exports java.base/sun.nio.ch=ALL-UNNAMED"
+  "--add-exports=java.base/java.nio.ch=ALL-UNNAMED",
+  "--add-exports=java.base/sun.nio.ch=ALL-UNNAMED"
 )
 
 // IMPORTANT : compatibilité avec libs Scala 2.13
